@@ -5,7 +5,6 @@ CREATE TABLE `t_user` (
   `email` varchar(50) NOT NULL COMMENT '用户邮箱',
   `password` char(32) NOT NULL COMMENT '用户密码',
   `salt` char(10) NOT NULL COMMENT '混淆码',
-  `last_login` int(11) NOT NULL DEFAULT '0' COMMENT '最后登录时间',
   `active` tinyint(4) NOT NULL DEFAULT '0' COMMENT '激活状态',
   PRIMARY KEY (`id`),
   UNIQUE KEY `user_name` (`user_name`),
