@@ -1,6 +1,5 @@
 # boot-service
-整合spring boot+thrift+mybatis的服务框架。
-这是我目前正在用的Java服务化框架，功能还有待完善。
+整合spring boot+thrift+mybatis的服务框架示例，功能还有待完善。
 
 ### support 目录说明
 
