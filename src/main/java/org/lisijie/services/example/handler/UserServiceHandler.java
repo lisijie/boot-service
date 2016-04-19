@@ -1,4 +1,4 @@
-package org.lisijie.services.user.handler;
+package org.lisijie.services.example.handler;
 
 import com.alibaba.fastjson.JSONObject;
 import org.apache.thrift.TException;

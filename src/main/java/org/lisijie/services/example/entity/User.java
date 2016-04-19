@@ -1,4 +1,4 @@
-package org.lisijie.services.user.entity;
+package org.lisijie.services.example.entity;
 
 import org.lisijie.common.data.Entity;
 

@@ -16,7 +16,7 @@ public class LoggingThriftMethodInterceptor implements MethodBeforeAdvice, After
 
     @Override
     public void before(Method method, Object[] args, Object target) throws Throwable {
-        log.info("{}.{}() 接收请求 : {}",
+        log.debug("{}.{}() 接收请求 : {}",
                 target.getClass().getSimpleName(),
                 method.getName(),
                 args[0]
@@ -25,7 +25,7 @@ public class LoggingThriftMethodInterceptor implements MethodBeforeAdvice, After
 
     @Override
     public void afterReturning(Object returnValue, Method method, Object[] args, Object target) throws Throwable {
-        log.info("{}.{}() 返回结果 : {}",
+        log.debug("{}.{}() 返回结果 : {}",
                 target.getClass().getSimpleName(),
                 method.getName(),
                 returnValue);
